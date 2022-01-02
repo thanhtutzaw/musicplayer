@@ -14,17 +14,18 @@
     align-items: center;
 }
 .container>*:nth-child(2) {
-    background     : url(/image/5.jpg);
+    background     : url(/image/7.jpg);
     height:100vh;
     background-size: cover;
       background-position: center;
 }
 .music-player{
+    box-shadow: 0 0 20px 16px #0000001f;
     color:white;
     /* border:3px solid red; */
     background:transparent;
     backdrop-filter: blur(5px);
-    border-radius: 5px;
+    border-radius: 7px;
     border:1px solid rgba(138, 138, 138, 0.116);
     margin:0 auto;
     width:50%;
